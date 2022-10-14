@@ -7,7 +7,7 @@ import streamlit as st
 
 # Insert the model file
 
-loaded_model = pickle.load(open('C:/Users/amany/Desktop/Project_1/final_trained_model.sav','rb'))
+loaded_model = pickle.load(open('final_trained_model.sav','rb'))
 
 global list_of_location
 list_of_location = ['Area', 'BHK', 'Bathroom', 'Furnishing', 'Alaknanda', 'Budh Vihar',
